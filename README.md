@@ -74,7 +74,7 @@
 
 ### Mobile View
 
-![Uploading mobile.PNG…]()
+![mobile](https://github.com/CobbyElsonfx/courses-webapp/assets/109095646/f999530b-24bf-408e-9dee-55f157603482)
 
 
 
@@ -167,7 +167,10 @@ webapp/
  ```
   npm run dev
 ```
-
+5. Build the App using
+ ```
+  npm run build
+```
 
 <!-- Provide information on running tests -->
 
