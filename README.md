@@ -205,7 +205,7 @@ If you like this project and wish to collaborate. Please contact me.
 
 ## 🙏  Acknowledgments <a name="acknowledgment"></a>
 
-The design idea is originally designed by **👤Nelson Sakwa in Behance**
+The design idea is originally by Andoh Francis
 
 
 ## ❓ FAQ <a name="faq"></a>
