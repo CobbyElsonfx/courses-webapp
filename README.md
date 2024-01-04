@@ -68,21 +68,6 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-<!-- Add any prerequisites needed to run the project -->
-
-### Setup
-To get a local copy of this app 
-
-Certainly! Based on the provided information, you can modify the "Getting Started" section of your readme as follows:
-
-markdown
-Copy code
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
 Make sure you have the following prerequisites installed on your machine:
 
 - [Node.js](https://nodejs.org/) (v14.0.0 or newer)
