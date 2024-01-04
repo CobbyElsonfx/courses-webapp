@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { setCourses } from "../redux/courses/coursesSlice";
@@ -13,11 +13,12 @@ const Main = () => {
 
   useEffect(() => {
     const fetchCourses = async () => {
+      // tryCatch block for proper error handling
       try {
         const coursesData = await getCourses();
         dispatch(setCourses(coursesData));
 
-        // Fetch modules for each course and store in the modules state
+        // fetched all modules for each course and store in the modules state
         const modulesData = await Promise.all(
           coursesData.map(async (course) => {
             const modulesForCourse = await getModulesForCourse(course.id);
@@ -26,7 +27,7 @@ const Main = () => {
         );
         dispatch(setModules(modulesData));
       } catch (error) {
-        console.error(error);
+       throw Error("Error fetching modules for all courses", error)
       }
     };
 
@@ -36,6 +37,7 @@ const Main = () => {
   return (
     <div className="container mx-auto mt-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {/* This block loops through the courses and uses the ID to find the number of  mod.coursesId with the same course.id */}
         {courses.map((course) => (
           <Link
             to={`/courses/${course.id}`}
@@ -45,8 +47,10 @@ const Main = () => {
             <div className="card bg-base-100 shadow-xl p-4 transition-transform transform hover:scale-105 duration-300">
               <h2 className="text-xl font-bold mb-2">{course.name}</h2>
               <p className="text-gray-700 mb-4">{course.course_code}</p>
+              {/* Modules information */}
               <div className="flex items-center justify-between mb-4">
                 <p className="text-gray-700">
+                    {/* Displays number of modules */}
                   <span className="font-semibold">Modules:</span>{" "}
                   {modules.find((mod) => mod.courseId === course.id)?.modules
                     ? modules.find((mod) => mod.courseId === course.id)?.modules
