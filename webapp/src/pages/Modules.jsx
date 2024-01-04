@@ -4,7 +4,7 @@ import Header from "../components/partials/Header";
 
 const Home = () => {
   return (
-    <div className="container  flex flex-col min-h-screen">
+    <div className=" flex flex-col min-h-screen">
       <div>
         <Header />
       </div>
