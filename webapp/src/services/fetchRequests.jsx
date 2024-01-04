@@ -33,5 +33,5 @@ const getModulesForCourse = async (courseId) => {
     }
   };
  
-  
+  // export the functions to be used in other files
   export { getCourses, getModulesForCourse }

@@ -3,7 +3,7 @@ import learnSVG from '../../assets/learn.png';
 // Resuable Hero component for the page
 const Hero = () => {
   return (
-    <div className="container md:mx-[3rem] flex flex-col">
+    <div className="md:mx-[3rem] flex flex-col">
       {/* grid layout for main content */}
       <div className="my-auto mb-8 mt-12 w-full grid-cols-1 justify-center md:flex md:gap-1 lg:grid lg:grid-cols-2">
         <div className="col-span-1 flex flex-col justify-center text-center md:w-3/5 lg:w-full lg:justify-center lg:text-left">
@@ -15,10 +15,10 @@ const Hero = () => {
           </div>
           {/*  title */}
           <h1 className="mb-6 text-4xl font-extrabold leading-tight text-dark-grey-900 lg:text-5xl xl:w-11/12 xl:text-6xl">
-            Explore Language Courses <br /> with Zoni Learning Hub
+            Explore Language Courses <br /> with <span className='text-primary'>Zoni</span>  Learning Hub
           </h1>
           {/* main description text */}
-          <p className="mb-8 text-base font-medium leading-7 text-dark-grey-600 xl:w-3/4">
+          <p className="mb-8 text-base px-3 font-medium leading-7 text-dark-grey-600 xl:w-3/4">
             Unlock the world of languages with Zoni Learning Hub! Dive into our comprehensive
             language courses, explore interactive modules, and accelerate your language skills
             with ease.
