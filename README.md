@@ -79,7 +79,8 @@ Make sure you have the following prerequisites installed on your machine:
 ```
    git clone https://github.com/CobbyElsonfx/courses-webapp.git
 ```
-<p>The project is made up of two main root directories called backed and webapp wit <br/> with file structures as illustrated below</p>
+<p>The project is made up of two main root directories called backed and webapp <br/> with file structures as illustrated below</p>
+
 ```
 backend/
 |-- node_modules/
