@@ -80,18 +80,101 @@ To get a local copy up and running, follow these steps.
 <!-- Add any prerequisites needed to run the project -->
 
 ### Setup
+To get a local copy of this app 
 
-<!-- Describe how to clone the repository -->
+Certainly! Based on the provided information, you can modify the "Getting Started" section of your readme as follows:
+
+markdown
+Copy code
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Make sure you have the following prerequisites installed on your machine:
+
+- [Node.js](https://nodejs.org/) (v14.0.0 or newer)
+- [npm](https://www.npmjs.com/) (v6.0.0 or newer)
+
+### Setup
+
+1. Clone the repository to your local machine:
+```
+   git clone https://github.com/CobbyElsonfx/courses-webapp.git
+```
+<p>The project is made up of two main root directories called backed and webapp wit <br/> with file structures as illustrated below</p>
+```
+backend/
+|-- node_modules/
+|-- server.js
+|-- package-lock.json
+|-- package.json
+|-- .gitignore
+```
+
+```
+webapp/
+|-- node_modules/
+|-- public/
+|-- src/
+|   |-- assets/
+|   |-- components/
+|   |-- pages/
+|   |-- redux/
+|   |-- services/
+|   |-- views/
+|   |-- App.jsx
+|   |-- main.jsx
+|   |-- index.css
+|-- .env
+|-- .babelrc
+|-- .eslintrc.json
+|-- .stylintrc.json
+|-- index.html
+|-- package.json
+|-- .gitignore
+|-- postcss.config.js
+|-- tailwind.config.js
+|-- vite.config.js
+```
+
 
 ### Install
+#### To install the backend
+1.Navigate to Backend Directory:
+   
+ ```
+   cd backend
+```
+2. Install Dependencies:
+ ```
+   npm install
+```
+3. Start the app
+ ```
+   npm run start
+```
+#### To install the backend
+1.Navigate to Webapp Directory:
+   
+ ```
+   cd webapp
+```
+2. Install Dependencies:
+ ```
+   npm install
+```
+3. Create a .env file in the webapp directory and define the necessary environment variables, such as the API endpoint authorisation token
+ ```
+  VITE_REACT_APP_API_TOKEN =""
+```
 
-<!-- Provide installation steps -->
+4. Start the app
+ ```
+  npm run dev
+```
 
-### Usage
-
-<!-- Explain how to run the project -->
-
-### Run tests
 
 <!-- Provide information on running tests -->
 
