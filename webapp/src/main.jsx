@@ -8,6 +8,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  {/* makes the  store available accross all files */}
     <Provider store={store}>
       <App />
     </Provider>

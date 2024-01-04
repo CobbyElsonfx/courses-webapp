@@ -1,5 +1,4 @@
 // App.jsx
-import React from 'react';
 import { Route, Routes } from 'react-router';
 
 import Modules from './pages/Modules';
@@ -10,7 +9,7 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-                <Route path="/courses/:courseId" element={<Modules />} />
+        <Route path="/courses/:courseId" element={<Modules />} />
       </Routes>
     </div>
   );

@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const cors = require('cors');
@@ -8,10 +7,10 @@ const app = express();
 // Enable CORS for all routes
 app.use(cors());
 
-// Proxy API requests to Canvas LMS
+// Proxy of  API requests to  canvas endpoint
 app.use('/api', createProxyMiddleware({ target: 'https://lms.zoni.edu', changeOrigin: true }));
 
-// Handle OPTIONS requests explicitly for CORS preflight
+// respond to request from all routes
 app.options('*', cors());
 
 const PORT = process.env.PORT || 3001;
