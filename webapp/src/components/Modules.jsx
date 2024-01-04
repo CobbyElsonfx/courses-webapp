@@ -6,7 +6,7 @@ import { setModules } from "../redux/modules/modulesSlice";
 import { getModulesForCourse } from "../services/fetchRequests";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-// Modules component responsible for displaying course modules
+//  component responsible for displaying course modules
 const Modules = () => {
   const dispatch = useDispatch();
   const { courseId } = useParams();
@@ -59,7 +59,7 @@ const Modules = () => {
           </p>
         ) : (
           // Render the list of modules when they exist
-          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mx-4">
             {/* loop through the modules to create the list of modules */}
             {modules.map((module, index) => (
               <li

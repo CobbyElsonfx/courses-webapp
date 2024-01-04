@@ -10,7 +10,7 @@ app.use(cors());
 // Proxy of  API requests to  canvas endpoint
 app.use('/api', createProxyMiddleware({ target: 'https://lms.zoni.edu', changeOrigin: true }));
 
-// respond to request from all routes
+// respond to request from al`l routes
 app.options('*', cors());
 
 const PORT = process.env.PORT || 3001;
