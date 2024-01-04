@@ -175,55 +175,49 @@ webapp/
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Francis Andoh**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@CobbyElsonfx](https://github.com/CobbyElsonfx)
+- LinkedIn: [@FrancisAndoh](https://www.linkedin.com/in/francis-andoh-133aa7245/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement additional Canvas LMS API endpoints for more data retrieval.**
-- [ ] **Enhance the user interface with more interactive features.**
+- [ ] **More animation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues/).
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
+If you like this project and wish to collaborate. Please contact me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgements <a name="acknowledgements"></a>
+## 🙏  Acknowledgments <a name="acknowledgment"></a>
 
-I would like to thank...
+The design idea is originally designed by **👤Nelson Sakwa in Behance**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-- **[Question_1]**
-  - [Answer_1]
+- **Is it responsive?**
 
-- **[Question_2]**
-  - [Answer_2]
+  - Yes,it works both on mobile and desktop screens.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
