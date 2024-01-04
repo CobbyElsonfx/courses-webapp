@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="your_project_logo.png" alt="logo" width="140" height="auto" />
-  <br/>
   <h3><b>Canvas LMS API Integration</b></h3>
 </div>
 
@@ -11,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  -  - [🚀 Live Demo](#screenshots)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -61,6 +60,18 @@
 - [Live Demo Link](https://your-live-demo-link.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🎨Images of Interface <a name="screenshots"></a>
+### Home page
+ ![courses](https://github.com/CobbyElsonfx/courses-webapp/assets/109095646/90cd6ea8-205a-4a75-8e10-96936a89aa28)
+
+ ### Courses
+![course area](https://github.com/CobbyElsonfx/courses-webapp/assets/109095646/6b3faea0-f2c1-4b16-87f0-1b2b772c4448)
+
+### Modules
+![modules](https://github.com/CobbyElsonfx/courses-webapp/assets/109095646/a08833c8-52ad-4516-ba22-073cd6d071dc)
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
