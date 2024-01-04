@@ -16,8 +16,6 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -38,7 +36,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-    <!-- Add more client-side technologies as needed -->
+    <li><a href="https://reactjs.org/">Redux Toolkit</a></li>
   </ul>
 </details>
 
@@ -46,17 +44,10 @@
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
-    <!-- Add more server-side technologies as needed -->
   </ul>
 </details>
 
-<details>
-  <summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <!-- Add more database technologies as needed -->
-  </ul>
-</details>
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -155,7 +146,7 @@ webapp/
  ```
    npm run start
 ```
-#### To install the backend
+#### To install the Front End
 1.Navigate to Webapp Directory:
    
  ```
@@ -177,10 +168,6 @@ webapp/
 
 
 <!-- Provide information on running tests -->
-
-### Deployment
-
-<!-- Add deployment instructions -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
