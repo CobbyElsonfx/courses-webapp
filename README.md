@@ -53,6 +53,7 @@
 
 - **Canvas API Integration:** Connects with the Canvas LMS API to fetch and display course information.
 - **User-Friendly Interface:** Provides a simple and intuitive web interface for easy navigation.
+-  **Code Quality** No linters errors and ensured quality using DRY principle
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
